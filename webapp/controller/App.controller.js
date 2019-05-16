@@ -9,11 +9,11 @@ sap.ui.define([
 		onInit: function () {
 			Log.info("Controller has been initialized.");
 		},
-
+		
 		onBeforeRendering: function () {
 			Log.info("View will shortly be rendered.");
 		},
-
+		
 		onAfterRendering: function () {
 			Log.info("View has been rendered.");
 		},
@@ -25,7 +25,7 @@ sap.ui.define([
 		onPress: function (sValue) {
 			sap.ui.require(["sap/m/MessageToast"], function (oMessage) {
 				oMessage.show("Searching..." + " " + sValue);
-			});
+});
 		}
 
 	});
