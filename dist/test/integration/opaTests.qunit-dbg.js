@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"opensap/movies1/test/integration/AllJourneys"
+		"opensap/movies/test/integration/AllJourneys"
 	], function () {
 		QUnit.start();
 	});

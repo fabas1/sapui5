@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "opensap.movies1.view.",
+		viewNamespace: "opensap.movies.view.",
 		autoWait: true
 	});
 });

@@ -19,6 +19,13 @@
             "name": "controller/App.controller.js"
         },
         {
+            "name": "controller/Detail-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
             "name": "css/style-dbg.css",
             "isDebug": true
         },
@@ -33,10 +40,32 @@
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "images/CinemaBerlin.png"
+        },
+        {
+            "name": "images/CinemaHamburg.png"
+        },
+        {
+            "name": "images/CinemaMunich.png"
+        },
+        {
+            "name": "images/MoviesHeader.png"
+        },
+        {
             "name": "index.html"
         },
         {
             "name": "manifest.json"
+        },
+        {
+            "name": "model/Movies.json"
+        },
+        {
+            "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/formatter.js"
         },
         {
             "name": "model/models-dbg.js",
@@ -131,6 +160,9 @@
             "name": "tmp/controller/App.controller.js"
         },
         {
+            "name": "tmp/controller/Detail.controller.js"
+        },
+        {
             "name": "tmp/css/style.css"
         },
         {
@@ -138,10 +170,28 @@
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "tmp/images/CinemaBerlin.png"
+        },
+        {
+            "name": "tmp/images/CinemaHamburg.png"
+        },
+        {
+            "name": "tmp/images/CinemaMunich.png"
+        },
+        {
+            "name": "tmp/images/MoviesHeader.png"
+        },
+        {
             "name": "tmp/index.html"
         },
         {
             "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/Movies.json"
+        },
+        {
+            "name": "tmp/model/formatter.js"
         },
         {
             "name": "tmp/model/models.js"
@@ -186,13 +236,25 @@
             "name": "tmp/view/App.view.xml"
         },
         {
+            "name": "tmp/view/Detail.view.xml"
+        },
+        {
+            "name": "tmp/view/Home.view.xml"
+        },
+        {
             "name": "tmp-dbg/Component.js"
         },
         {
             "name": "tmp-dbg/controller/App.controller.js"
         },
         {
+            "name": "tmp-dbg/controller/Detail.controller.js"
+        },
+        {
             "name": "tmp-dbg/css/style.css"
+        },
+        {
+            "name": "tmp-dbg/model/formatter.js"
         },
         {
             "name": "tmp-dbg/model/models.js"
@@ -226,6 +288,12 @@
         },
         {
             "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/Home.view.xml"
         }
     ]
 }

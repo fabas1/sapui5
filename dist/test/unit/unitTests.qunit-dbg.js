@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"opensap/movies1/test/unit/AllTests"
+		"opensap/movies/test/unit/AllTests"
 	], function () {
 		QUnit.start();
 	});
